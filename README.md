@@ -22,7 +22,7 @@ An external modular comparison combines the model's image-only and text-only pre
 
 ## Dataset
 
-The full-resolution images, manifests, and language templates are being prepared for release on Hugging Face under CC BY 4.0. A link will be added here once available. The manifests use paths relative to the dataset root; scripts expecting the original layout look for images under `data/processed/rolecue/`.
+The full-resolution images, manifests, and language templates are available at [NiazTahi/ROLECUE-192 on Hugging Face](https://huggingface.co/datasets/NiazTahi/ROLECUE-192) under CC BY 4.0. The manifests use paths relative to the dataset root; scripts expecting the original layout look for images under `data/processed/rolecue/`.
 
 ## Reproduce the camera-ready analyses
 
@@ -59,4 +59,4 @@ The images are synthetic, color-coded scenes of male-presenting adults, not a re
 
 ## License
 
-Code is available under the [MIT License](LICENSE). The dataset is intended for release under CC BY 4.0.
+Code is available under the [MIT License](LICENSE). The dataset is available under CC BY 4.0.
