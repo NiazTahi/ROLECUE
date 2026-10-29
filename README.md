@@ -6,7 +6,7 @@ Niaz Mohaiman Abtahi and Evan Maksud ? WACV 2027, Evaluations and Datasets Track
 
 A vision-language model may recognize who is acting in an image and correctly parse a sentence, yet struggle to decide whether the two agree. ROLECUE studies that gap with controlled images and sentences that change who acts, who is acted on, and which person is mentioned first.
 
-![Four ROLECUE examples showing matched and mismatched image?sentence pairs in agent-first and patient-first order](rolecue_overview.png)
+![ROLECUE: who did what to whom? An illustration of one person pushing another.](rolecue_cover.png)
 
 ## The benchmark
 
