@@ -2,7 +2,7 @@
 
 **Diagnosing cross-lingual role-binding failures in vision-language models**
 
-Niaz Mohaiman Abtahi and Evan Maksud ? WACV 2027, Evaluations and Datasets Track
+Niaz Mohaiman Abtahi and Evan Maksud | WACV 2027, Evaluations and Datasets Track
 
 A vision-language model may recognize who is acting in an image and correctly parse a sentence, yet struggle to decide whether the two agree. ROLECUE studies that gap with controlled images and sentences that change who acts, who is acted on, and which person is mentioned first.
 
@@ -55,7 +55,7 @@ These files were reproduced byte-for-byte in a fresh Python environment. Other a
 
 ## Scope and limitations
 
-The images are synthetic, color-coded scenes of male-presenting adults, not a representative sample of real-world interactions. Static images make some actions, particularly chasing, ambiguous; the paper explains the image-only gate and no-chasing comparisons. Instructions were in English across language conditions, and few-shot prompting was not evaluated. Response bias can contribute to observed component?joint gaps, so these gaps do not identify a unique internal mechanism.
+The images are synthetic, color-coded scenes of male-presenting adults, not a representative sample of real-world interactions. Static images make some actions, particularly chasing, ambiguous; the paper explains the image-only gate and no-chasing comparisons. Instructions were in English across language conditions, and few-shot prompting was not evaluated. Response bias can contribute to observed component-joint gaps, so these gaps do not identify a unique internal mechanism.
 
 ## License
 
