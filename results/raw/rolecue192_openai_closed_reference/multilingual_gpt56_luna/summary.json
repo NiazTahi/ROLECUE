@@ -1,0 +1,486 @@
+{
+  "main": [
+    {
+      "model": "GPT-5.6-Luna",
+      "task": "joint_match",
+      "language": "bn",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 0.9348958333333334,
+      "order_heuristic_agreement": 0.9348958333333334,
+      "option_consistency": 0.9635416666666666
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "task": "joint_match",
+      "language": "bn",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 0.9166666666666666,
+      "order_heuristic_agreement": 0.03125,
+      "option_consistency": 0.9479166666666666
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "task": "joint_match",
+      "language": "de",
+      "order": "agent_first",
+      "n": 192,
+      "case_accuracy": 0.8645833333333334,
+      "order_heuristic_agreement": 0.8645833333333334,
+      "option_consistency": 0.90625
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "task": "joint_match",
+      "language": "de",
+      "order": "patient_first",
+      "n": 192,
+      "case_accuracy": 0.8645833333333334,
+      "order_heuristic_agreement": 0.046875,
+      "option_consistency": 0.9114583333333334
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "task": "joint_match",
+      "language": "en",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 0.9296875,
+      "order_heuristic_agreement": 0.9296875,
+      "option_consistency": 0.9765625
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "task": "joint_match",
+      "language": "en",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 0.9583333333333334,
+      "order_heuristic_agreement": 0.013020833333333334,
+      "option_consistency": 0.9713541666666666
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "task": "joint_match",
+      "language": "ja",
+      "order": "agent_first",
+      "n": 192,
+      "case_accuracy": 0.9114583333333334,
+      "order_heuristic_agreement": 0.9114583333333334,
+      "option_consistency": 0.9479166666666666
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "task": "joint_match",
+      "language": "ja",
+      "order": "patient_first",
+      "n": 192,
+      "case_accuracy": 0.890625,
+      "order_heuristic_agreement": 0.026041666666666668,
+      "option_consistency": 0.9166666666666666
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "task": "joint_match",
+      "language": "ko",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 0.9375,
+      "order_heuristic_agreement": 0.9375,
+      "option_consistency": 0.9583333333333334
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "task": "joint_match",
+      "language": "ko",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 0.9348958333333334,
+      "order_heuristic_agreement": 0.020833333333333332,
+      "option_consistency": 0.9557291666666666
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "task": "joint_match",
+      "language": "tr",
+      "order": "agent_first",
+      "n": 192,
+      "case_accuracy": 0.8229166666666666,
+      "order_heuristic_agreement": 0.8229166666666666,
+      "option_consistency": 0.890625
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "task": "joint_match",
+      "language": "tr",
+      "order": "patient_first",
+      "n": 192,
+      "case_accuracy": 0.8385416666666666,
+      "order_heuristic_agreement": 0.08333333333333333,
+      "option_consistency": 0.921875
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "task": "text_only",
+      "language": "bn",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 0.9973958333333334,
+      "order_heuristic_agreement": 0.9973958333333334,
+      "option_consistency": 0.9973958333333334
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "task": "text_only",
+      "language": "bn",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 0.796875,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 0.796875
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "task": "text_only",
+      "language": "de",
+      "order": "agent_first",
+      "n": 192,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "task": "text_only",
+      "language": "de",
+      "order": "patient_first",
+      "n": 192,
+      "case_accuracy": 0.78125,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 0.78125
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "task": "text_only",
+      "language": "en",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 0.9140625,
+      "order_heuristic_agreement": 0.9140625,
+      "option_consistency": 0.9140625
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "task": "text_only",
+      "language": "en",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 0.5494791666666666,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 0.5494791666666666
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "task": "text_only",
+      "language": "ja",
+      "order": "agent_first",
+      "n": 192,
+      "case_accuracy": 0.765625,
+      "order_heuristic_agreement": 0.765625,
+      "option_consistency": 0.765625
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "task": "text_only",
+      "language": "ja",
+      "order": "patient_first",
+      "n": 192,
+      "case_accuracy": 0.9895833333333334,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 0.9895833333333334
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "task": "text_only",
+      "language": "ko",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 0.9583333333333334,
+      "order_heuristic_agreement": 0.9583333333333334,
+      "option_consistency": 0.9583333333333334
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "task": "text_only",
+      "language": "ko",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 0.8671875,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 0.8671875
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "task": "text_only",
+      "language": "tr",
+      "order": "agent_first",
+      "n": 192,
+      "case_accuracy": 0.8697916666666666,
+      "order_heuristic_agreement": 0.8697916666666666,
+      "option_consistency": 0.8697916666666666
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "task": "text_only",
+      "language": "tr",
+      "order": "patient_first",
+      "n": 192,
+      "case_accuracy": 0.859375,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 0.859375
+    }
+  ],
+  "joint_by_match": [
+    {
+      "model": "GPT-5.6-Luna",
+      "language": "bn",
+      "order": "agent_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 0.9583333333333334,
+      "order_heuristic_agreement": 0.9583333333333334,
+      "option_consistency": 0.96875
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "language": "bn",
+      "order": "agent_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.9114583333333334,
+      "order_heuristic_agreement": 0.9114583333333334,
+      "option_consistency": 0.9583333333333334
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "language": "bn",
+      "order": "patient_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 0.8854166666666666,
+      "order_heuristic_agreement": 0.041666666666666664,
+      "option_consistency": 0.9270833333333334
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "language": "bn",
+      "order": "patient_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.9479166666666666,
+      "order_heuristic_agreement": 0.020833333333333332,
+      "option_consistency": 0.96875
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "language": "de",
+      "order": "agent_first",
+      "is_match": false,
+      "n": 96,
+      "case_accuracy": 0.7916666666666666,
+      "order_heuristic_agreement": 0.7916666666666666,
+      "option_consistency": 0.8333333333333334
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "language": "de",
+      "order": "agent_first",
+      "is_match": true,
+      "n": 96,
+      "case_accuracy": 0.9375,
+      "order_heuristic_agreement": 0.9375,
+      "option_consistency": 0.9791666666666666
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "language": "de",
+      "order": "patient_first",
+      "is_match": false,
+      "n": 96,
+      "case_accuracy": 0.8125,
+      "order_heuristic_agreement": 0.041666666666666664,
+      "option_consistency": 0.8541666666666666
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "language": "de",
+      "order": "patient_first",
+      "is_match": true,
+      "n": 96,
+      "case_accuracy": 0.9166666666666666,
+      "order_heuristic_agreement": 0.052083333333333336,
+      "option_consistency": 0.96875
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "language": "en",
+      "order": "agent_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 0.9010416666666666,
+      "order_heuristic_agreement": 0.9010416666666666,
+      "option_consistency": 0.96875
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "language": "en",
+      "order": "agent_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.9583333333333334,
+      "order_heuristic_agreement": 0.9583333333333334,
+      "option_consistency": 0.984375
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "language": "en",
+      "order": "patient_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 0.9375,
+      "order_heuristic_agreement": 0.026041666666666668,
+      "option_consistency": 0.9635416666666666
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "language": "en",
+      "order": "patient_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.9791666666666666,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 0.9791666666666666
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "language": "ja",
+      "order": "agent_first",
+      "is_match": false,
+      "n": 96,
+      "case_accuracy": 0.8854166666666666,
+      "order_heuristic_agreement": 0.8854166666666666,
+      "option_consistency": 0.9270833333333334
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "language": "ja",
+      "order": "agent_first",
+      "is_match": true,
+      "n": 96,
+      "case_accuracy": 0.9375,
+      "order_heuristic_agreement": 0.9375,
+      "option_consistency": 0.96875
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "language": "ja",
+      "order": "patient_first",
+      "is_match": false,
+      "n": 96,
+      "case_accuracy": 0.8333333333333334,
+      "order_heuristic_agreement": 0.052083333333333336,
+      "option_consistency": 0.8854166666666666
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "language": "ja",
+      "order": "patient_first",
+      "is_match": true,
+      "n": 96,
+      "case_accuracy": 0.9479166666666666,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 0.9479166666666666
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "language": "ko",
+      "order": "agent_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 0.9635416666666666,
+      "order_heuristic_agreement": 0.9635416666666666,
+      "option_consistency": 0.9739583333333334
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "language": "ko",
+      "order": "agent_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.9114583333333334,
+      "order_heuristic_agreement": 0.9114583333333334,
+      "option_consistency": 0.9427083333333334
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "language": "ko",
+      "order": "patient_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 0.9166666666666666,
+      "order_heuristic_agreement": 0.03125,
+      "option_consistency": 0.9479166666666666
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "language": "ko",
+      "order": "patient_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.953125,
+      "order_heuristic_agreement": 0.010416666666666666,
+      "option_consistency": 0.9635416666666666
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "language": "tr",
+      "order": "agent_first",
+      "is_match": false,
+      "n": 96,
+      "case_accuracy": 0.7395833333333334,
+      "order_heuristic_agreement": 0.7395833333333334,
+      "option_consistency": 0.8333333333333334
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "language": "tr",
+      "order": "agent_first",
+      "is_match": true,
+      "n": 96,
+      "case_accuracy": 0.90625,
+      "order_heuristic_agreement": 0.90625,
+      "option_consistency": 0.9479166666666666
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "language": "tr",
+      "order": "patient_first",
+      "is_match": false,
+      "n": 96,
+      "case_accuracy": 0.7395833333333334,
+      "order_heuristic_agreement": 0.13541666666666666,
+      "option_consistency": 0.875
+    },
+    {
+      "model": "GPT-5.6-Luna",
+      "language": "tr",
+      "order": "patient_first",
+      "is_match": true,
+      "n": 96,
+      "case_accuracy": 0.9375,
+      "order_heuristic_agreement": 0.03125,
+      "option_consistency": 0.96875
+    }
+  ]
+}

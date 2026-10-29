@@ -1,0 +1,486 @@
+{
+  "main": [
+    {
+      "model": "InternVL3.5-38B",
+      "task": "joint_match",
+      "language": "bn",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 0.9296875,
+      "order_heuristic_agreement": 0.9296875,
+      "option_consistency": 0.9713541666666666
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "task": "joint_match",
+      "language": "bn",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 0.9010416666666666,
+      "order_heuristic_agreement": 0.09895833333333333,
+      "option_consistency": 0.9479166666666666
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "task": "joint_match",
+      "language": "de",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 0.9583333333333334,
+      "order_heuristic_agreement": 0.9583333333333334,
+      "option_consistency": 0.9739583333333334
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "task": "joint_match",
+      "language": "de",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 0.96875,
+      "order_heuristic_agreement": 0.03125,
+      "option_consistency": 0.953125
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "task": "joint_match",
+      "language": "en",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 0.9505208333333334,
+      "order_heuristic_agreement": 0.9505208333333334,
+      "option_consistency": 0.9791666666666666
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "task": "joint_match",
+      "language": "en",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 0.9713541666666666,
+      "order_heuristic_agreement": 0.028645833333333332,
+      "option_consistency": 0.9557291666666666
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "task": "joint_match",
+      "language": "ja",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 0.953125,
+      "order_heuristic_agreement": 0.953125,
+      "option_consistency": 0.9817708333333334
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "task": "joint_match",
+      "language": "ja",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 0.9609375,
+      "order_heuristic_agreement": 0.0390625,
+      "option_consistency": 0.9817708333333334
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "task": "joint_match",
+      "language": "ko",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 0.9453125,
+      "order_heuristic_agreement": 0.9453125,
+      "option_consistency": 0.9791666666666666
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "task": "joint_match",
+      "language": "ko",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 0.9817708333333334,
+      "order_heuristic_agreement": 0.018229166666666668,
+      "option_consistency": 0.9661458333333334
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "task": "joint_match",
+      "language": "tr",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 0.8932291666666666,
+      "order_heuristic_agreement": 0.8932291666666666,
+      "option_consistency": 0.9453125
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "task": "joint_match",
+      "language": "tr",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 0.953125,
+      "order_heuristic_agreement": 0.046875,
+      "option_consistency": 0.9505208333333334
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "task": "text_only",
+      "language": "bn",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "task": "text_only",
+      "language": "bn",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 0.375
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "task": "text_only",
+      "language": "de",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "task": "text_only",
+      "language": "de",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 0.1875
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "task": "text_only",
+      "language": "en",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "task": "text_only",
+      "language": "en",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 0.0
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "task": "text_only",
+      "language": "ja",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "task": "text_only",
+      "language": "ja",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 0.875
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "task": "text_only",
+      "language": "ko",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "task": "text_only",
+      "language": "ko",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 0.4166666666666667
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "task": "text_only",
+      "language": "tr",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "task": "text_only",
+      "language": "tr",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 0.041666666666666664
+    }
+  ],
+  "joint_by_match": [
+    {
+      "model": "InternVL3.5-38B",
+      "language": "bn",
+      "order": "agent_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 0.859375,
+      "order_heuristic_agreement": 0.859375,
+      "option_consistency": 0.9427083333333334
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "language": "bn",
+      "order": "agent_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "language": "bn",
+      "order": "patient_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 0.828125,
+      "order_heuristic_agreement": 0.171875,
+      "option_consistency": 0.9322916666666666
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "language": "bn",
+      "order": "patient_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.9739583333333334,
+      "order_heuristic_agreement": 0.026041666666666668,
+      "option_consistency": 0.9635416666666666
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "language": "de",
+      "order": "agent_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 0.9166666666666666,
+      "order_heuristic_agreement": 0.9166666666666666,
+      "option_consistency": 0.9479166666666666
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "language": "de",
+      "order": "agent_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "language": "de",
+      "order": "patient_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 0.9635416666666666,
+      "order_heuristic_agreement": 0.036458333333333336,
+      "option_consistency": 0.9427083333333334
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "language": "de",
+      "order": "patient_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.9739583333333334,
+      "order_heuristic_agreement": 0.026041666666666668,
+      "option_consistency": 0.9635416666666666
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "language": "en",
+      "order": "agent_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 0.9114583333333334,
+      "order_heuristic_agreement": 0.9114583333333334,
+      "option_consistency": 0.9739583333333334
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "language": "en",
+      "order": "agent_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.9895833333333334,
+      "order_heuristic_agreement": 0.9895833333333334,
+      "option_consistency": 0.984375
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "language": "en",
+      "order": "patient_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 0.96875
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "language": "en",
+      "order": "patient_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.9427083333333334,
+      "order_heuristic_agreement": 0.057291666666666664,
+      "option_consistency": 0.9427083333333334
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "language": "ja",
+      "order": "agent_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 0.90625,
+      "order_heuristic_agreement": 0.90625,
+      "option_consistency": 0.96875
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "language": "ja",
+      "order": "agent_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 0.9947916666666666
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "language": "ja",
+      "order": "patient_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 0.921875,
+      "order_heuristic_agreement": 0.078125,
+      "option_consistency": 0.9635416666666666
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "language": "ja",
+      "order": "patient_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "language": "ko",
+      "order": "agent_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 0.9166666666666666,
+      "order_heuristic_agreement": 0.9166666666666666,
+      "option_consistency": 0.9895833333333334
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "language": "ko",
+      "order": "agent_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.9739583333333334,
+      "order_heuristic_agreement": 0.9739583333333334,
+      "option_consistency": 0.96875
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "language": "ko",
+      "order": "patient_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 0.9635416666666666,
+      "order_heuristic_agreement": 0.036458333333333336,
+      "option_consistency": 0.9479166666666666
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "language": "ko",
+      "order": "patient_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 0.984375
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "language": "tr",
+      "order": "agent_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 0.828125,
+      "order_heuristic_agreement": 0.828125,
+      "option_consistency": 0.9322916666666666
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "language": "tr",
+      "order": "agent_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.9583333333333334,
+      "order_heuristic_agreement": 0.9583333333333334,
+      "option_consistency": 0.9583333333333334
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "language": "tr",
+      "order": "patient_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 0.96875,
+      "order_heuristic_agreement": 0.03125,
+      "option_consistency": 0.9375
+    },
+    {
+      "model": "InternVL3.5-38B",
+      "language": "tr",
+      "order": "patient_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.9375,
+      "order_heuristic_agreement": 0.0625,
+      "option_consistency": 0.9635416666666666
+    }
+  ]
+}

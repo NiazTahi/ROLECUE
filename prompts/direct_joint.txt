@@ -1,0 +1,7 @@
+Does the sentence correctly describe which person is performing the action on the other person in the image? A: Yes. B: No. Answer with only A or B.
+Sentence: [SENTENCE]
+
+The yes/no mapping is also run in reversed form:
+
+Does the sentence correctly describe which person is performing the action on the other person in the image? A: No. B: Yes. Answer with only A or B.
+Sentence: [SENTENCE]

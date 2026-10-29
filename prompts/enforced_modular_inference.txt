@@ -1,0 +1,7 @@
+Enforced modular inference is not a single model prompt.
+
+It is computed externally:
+
+1. Query the image-only prompt and collapse A/B mappings to obtain the predicted visual-agent color.
+2. Query the text-only prompt and collapse A/B mappings to obtain the predicted sentence-agent color.
+3. Predict match if the two colors are equal; otherwise predict mismatch.

@@ -1,0 +1,41 @@
+{
+  "base_scenes": 106,
+  "images": 192,
+  "accuracy": 1.0,
+  "accuracy_ci": [
+    1.0,
+    1.0
+  ],
+  "role_reversal_success": 0.8113207547169812,
+  "role_reversal_ci": [
+    0.7358490566037735,
+    0.8867924528301887
+  ],
+  "option_map_agreement": 1.0,
+  "accuracy_by_action": {
+    "bandaging": 1.0,
+    "carrying": 1.0,
+    "chasing": 1.0,
+    "dragging": 1.0,
+    "feeding": 1.0,
+    "hugging": 1.0,
+    "kicking": 1.0,
+    "lifting": 1.0,
+    "photographing": 1.0,
+    "pushing": 1.0,
+    "tickling": 1.0,
+    "washing": 1.0
+  },
+  "accuracy_by_agent_color": {
+    "blue": 1.0,
+    "red": 1.0
+  },
+  "accuracy_by_agent_side": {
+    "left": 1.0,
+    "right": 1.0
+  },
+  "color_gap": 0.0,
+  "side_gap": 0.0,
+  "gate_pass": false,
+  "model": "GPT-5.6-Sol"
+}

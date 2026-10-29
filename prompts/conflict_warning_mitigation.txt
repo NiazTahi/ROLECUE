@@ -1,0 +1,4 @@
+The sentence may use noncanonical word order. Do not assume the first mentioned person performs the action. Use grammatical case, postpositions, passive constructions, or other role cues to determine the sentence agent.
+
+Does the sentence correctly describe which person is performing the action on the other person in the image? A: Yes. B: No. Answer with only A or B.
+Sentence: [SENTENCE]

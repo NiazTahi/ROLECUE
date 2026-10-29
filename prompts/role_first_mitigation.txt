@@ -1,0 +1,7 @@
+First identify which person is performing the action in the image.
+Then identify which person performs the action according to the sentence.
+Then compare those two agents.
+Finally answer only A or B.
+
+Does the sentence correctly describe which person is performing the action on the other person in the image? A: Yes. B: No.
+Sentence: [SENTENCE]

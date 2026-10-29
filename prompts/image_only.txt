@@ -1,0 +1,5 @@
+Which person is [ACTION] the other person? A: The person in red. B: The person in blue. Answer with only A or B.
+
+The A/B mapping is also run in reversed form:
+
+Which person is [ACTION] the other person? A: The person in blue. B: The person in red. Answer with only A or B.

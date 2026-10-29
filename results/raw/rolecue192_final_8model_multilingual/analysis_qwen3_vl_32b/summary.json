@@ -1,0 +1,486 @@
+{
+  "main": [
+    {
+      "model": "Qwen3-VL-32B",
+      "task": "joint_match",
+      "language": "bn",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 0.9895833333333334,
+      "order_heuristic_agreement": 0.9895833333333334,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "task": "joint_match",
+      "language": "bn",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 0.9869791666666666,
+      "order_heuristic_agreement": 0.013020833333333334,
+      "option_consistency": 0.9973958333333334
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "task": "joint_match",
+      "language": "de",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 0.9895833333333334,
+      "order_heuristic_agreement": 0.9895833333333334,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "task": "joint_match",
+      "language": "de",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 0.9869791666666666,
+      "order_heuristic_agreement": 0.013020833333333334,
+      "option_consistency": 0.9947916666666666
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "task": "joint_match",
+      "language": "en",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 0.9895833333333334,
+      "order_heuristic_agreement": 0.9895833333333334,
+      "option_consistency": 0.9947916666666666
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "task": "joint_match",
+      "language": "en",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 0.9791666666666666,
+      "order_heuristic_agreement": 0.020833333333333332,
+      "option_consistency": 0.9973958333333334
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "task": "joint_match",
+      "language": "ja",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 0.9895833333333334,
+      "order_heuristic_agreement": 0.9895833333333334,
+      "option_consistency": 0.9869791666666666
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "task": "joint_match",
+      "language": "ja",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 0.9869791666666666,
+      "order_heuristic_agreement": 0.013020833333333334,
+      "option_consistency": 0.9973958333333334
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "task": "joint_match",
+      "language": "ko",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 0.9869791666666666,
+      "order_heuristic_agreement": 0.9869791666666666,
+      "option_consistency": 0.9895833333333334
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "task": "joint_match",
+      "language": "ko",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 0.9479166666666666,
+      "order_heuristic_agreement": 0.052083333333333336,
+      "option_consistency": 0.9947916666666666
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "task": "joint_match",
+      "language": "tr",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 0.9765625,
+      "order_heuristic_agreement": 0.9765625,
+      "option_consistency": 0.9817708333333334
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "task": "joint_match",
+      "language": "tr",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 0.9895833333333334,
+      "order_heuristic_agreement": 0.010416666666666666,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "task": "text_only",
+      "language": "bn",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "task": "text_only",
+      "language": "bn",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 0.20833333333333334
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "task": "text_only",
+      "language": "de",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "task": "text_only",
+      "language": "de",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "task": "text_only",
+      "language": "en",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "task": "text_only",
+      "language": "en",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 0.4166666666666667
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "task": "text_only",
+      "language": "ja",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "task": "text_only",
+      "language": "ja",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 0.9166666666666666
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "task": "text_only",
+      "language": "ko",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "task": "text_only",
+      "language": "ko",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "task": "text_only",
+      "language": "tr",
+      "order": "agent_first",
+      "n": 384,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "task": "text_only",
+      "language": "tr",
+      "order": "patient_first",
+      "n": 384,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 0.6666666666666666
+    }
+  ],
+  "joint_by_match": [
+    {
+      "model": "Qwen3-VL-32B",
+      "language": "bn",
+      "order": "agent_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "language": "bn",
+      "order": "agent_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.9791666666666666,
+      "order_heuristic_agreement": 0.9791666666666666,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "language": "bn",
+      "order": "patient_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "language": "bn",
+      "order": "patient_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.9739583333333334,
+      "order_heuristic_agreement": 0.026041666666666668,
+      "option_consistency": 0.9947916666666666
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "language": "de",
+      "order": "agent_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "language": "de",
+      "order": "agent_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.9791666666666666,
+      "order_heuristic_agreement": 0.9791666666666666,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "language": "de",
+      "order": "patient_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "language": "de",
+      "order": "patient_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.9739583333333334,
+      "order_heuristic_agreement": 0.026041666666666668,
+      "option_consistency": 0.9895833333333334
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "language": "en",
+      "order": "agent_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "language": "en",
+      "order": "agent_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.9791666666666666,
+      "order_heuristic_agreement": 0.9791666666666666,
+      "option_consistency": 0.9895833333333334
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "language": "en",
+      "order": "patient_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "language": "en",
+      "order": "patient_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.9583333333333334,
+      "order_heuristic_agreement": 0.041666666666666664,
+      "option_consistency": 0.9947916666666666
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "language": "ja",
+      "order": "agent_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 0.9895833333333334
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "language": "ja",
+      "order": "agent_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.9791666666666666,
+      "order_heuristic_agreement": 0.9791666666666666,
+      "option_consistency": 0.984375
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "language": "ja",
+      "order": "patient_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "language": "ja",
+      "order": "patient_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.9739583333333334,
+      "order_heuristic_agreement": 0.026041666666666668,
+      "option_consistency": 0.9947916666666666
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "language": "ko",
+      "order": "agent_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 0.9947916666666666,
+      "order_heuristic_agreement": 0.9947916666666666,
+      "option_consistency": 0.9895833333333334
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "language": "ko",
+      "order": "agent_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.9791666666666666,
+      "order_heuristic_agreement": 0.9791666666666666,
+      "option_consistency": 0.9895833333333334
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "language": "ko",
+      "order": "patient_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "language": "ko",
+      "order": "patient_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.8958333333333334,
+      "order_heuristic_agreement": 0.10416666666666667,
+      "option_consistency": 0.9895833333333334
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "language": "tr",
+      "order": "agent_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 0.9739583333333334,
+      "order_heuristic_agreement": 0.9739583333333334,
+      "option_consistency": 0.9739583333333334
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "language": "tr",
+      "order": "agent_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.9791666666666666,
+      "order_heuristic_agreement": 0.9791666666666666,
+      "option_consistency": 0.9895833333333334
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "language": "tr",
+      "order": "patient_first",
+      "is_match": false,
+      "n": 192,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "language": "tr",
+      "order": "patient_first",
+      "is_match": true,
+      "n": 192,
+      "case_accuracy": 0.9791666666666666,
+      "order_heuristic_agreement": 0.020833333333333332,
+      "option_consistency": 1.0
+    }
+  ]
+}

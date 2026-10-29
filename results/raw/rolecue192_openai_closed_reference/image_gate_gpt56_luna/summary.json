@@ -1,0 +1,41 @@
+{
+  "base_scenes": 106,
+  "images": 192,
+  "accuracy": 0.9947916666666666,
+  "accuracy_ci": [
+    0.984375,
+    1.0
+  ],
+  "role_reversal_success": 0.8018867924528302,
+  "role_reversal_ci": [
+    0.7169811320754716,
+    0.8773584905660378
+  ],
+  "option_map_agreement": 0.9947916666666666,
+  "accuracy_by_action": {
+    "bandaging": 1.0,
+    "carrying": 1.0,
+    "chasing": 0.9375,
+    "dragging": 1.0,
+    "feeding": 1.0,
+    "hugging": 1.0,
+    "kicking": 1.0,
+    "lifting": 1.0,
+    "photographing": 1.0,
+    "pushing": 1.0,
+    "tickling": 1.0,
+    "washing": 1.0
+  },
+  "accuracy_by_agent_color": {
+    "blue": 1.0,
+    "red": 0.9895833333333334
+  },
+  "accuracy_by_agent_side": {
+    "left": 1.0,
+    "right": 0.9791666666666666
+  },
+  "color_gap": 0.01041666666666663,
+  "side_gap": 0.02083333333333337,
+  "gate_pass": false,
+  "model": "GPT-5.6-Luna"
+}

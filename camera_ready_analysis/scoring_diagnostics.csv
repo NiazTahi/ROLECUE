@@ -1,0 +1,17 @@
+model,task,raw_rows,semantic_pairs,parse_failures,pairs_with_unparsed,hard_mapping_conflicts,zero_margin_pairs
+Qwen3-VL-8B,text_only,9216,4608,0,0,1184,64
+Qwen3-VL-8B,joint_match,9216,4608,0,0,1270,22
+Gemma-4-12B-it,text_only,9216,4608,1264,656,16,0
+Gemma-4-12B-it,joint_match,9216,4608,122,63,84,4
+InternVL3.5-8B,text_only,8448,4224,0,0,1264,128
+InternVL3.5-8B,joint_match,8448,4224,0,0,518,19
+LLaVA-OneVision-7B,text_only,8448,4224,0,0,1248,112
+LLaVA-OneVision-7B,joint_match,8448,4224,0,0,70,14
+MiniCPM-V-4.5,text_only,8448,4224,0,0,1054,0
+MiniCPM-V-4.5,joint_match,8448,4224,0,0,291,0
+Qwen2.5-VL-32B,text_only,8448,4224,0,0,256,16
+Qwen2.5-VL-32B,joint_match,8448,4224,0,0,60,12
+Qwen3-VL-32B,text_only,9216,4608,0,0,688,0
+Qwen3-VL-32B,joint_match,9216,4608,0,0,25,0
+InternVL3.5-38B,text_only,9216,4608,72,72,1536,16
+InternVL3.5-38B,joint_match,9216,4608,0,0,159,7

@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rolecue-pilot"
+version = "0.1.0"
+description = "Cue-competition pilot for multilingual visual role binding"
+requires-python = ">=3.10"
+dependencies = [
+  "nltk==3.9.2",
+  "Pillow>=11,<13",
+  "remotezip==0.12.5",
+  "requests>=2.32,<3",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9", "ruff>=0.11,<0.15"]
+gpu = [
+  "accelerate>=1.7,<2",
+  "qwen-vl-utils==0.0.11",
+  "safetensors>=0.5,<1",
+  "transformers==4.52.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

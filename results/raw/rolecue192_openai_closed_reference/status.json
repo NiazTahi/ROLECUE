@@ -1,0 +1,30 @@
+{
+  "statuses": [
+    {
+      "label": "GPT-5.6-Luna",
+      "image_rows": 384,
+      "multi_rows": 13824,
+      "parse_failures": 0,
+      "complete": true
+    },
+    {
+      "label": "GPT-5.6-Terra",
+      "image_rows": 384,
+      "multi_rows": 13824,
+      "parse_failures": 0,
+      "complete": true
+    },
+    {
+      "label": "GPT-5.6-Sol",
+      "image_rows": 384,
+      "multi_rows": 13824,
+      "parse_failures": 0,
+      "complete": true
+    }
+  ],
+  "ready": [
+    "GPT-5.6-Luna",
+    "GPT-5.6-Terra",
+    "GPT-5.6-Sol"
+  ]
+}

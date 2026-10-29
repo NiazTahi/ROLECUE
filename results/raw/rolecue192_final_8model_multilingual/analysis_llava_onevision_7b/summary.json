@@ -1,0 +1,486 @@
+{
+  "main": [
+    {
+      "model": "LLaVA-OneVision-7B",
+      "task": "joint_match",
+      "language": "bn",
+      "order": "agent_first",
+      "n": 352,
+      "case_accuracy": 0.5,
+      "order_heuristic_agreement": 0.5,
+      "option_consistency": 0.9943181818181818
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "task": "joint_match",
+      "language": "bn",
+      "order": "patient_first",
+      "n": 352,
+      "case_accuracy": 0.5,
+      "order_heuristic_agreement": 0.5,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "task": "joint_match",
+      "language": "de",
+      "order": "agent_first",
+      "n": 352,
+      "case_accuracy": 0.6477272727272727,
+      "order_heuristic_agreement": 0.6477272727272727,
+      "option_consistency": 0.9147727272727273
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "task": "joint_match",
+      "language": "de",
+      "order": "patient_first",
+      "n": 352,
+      "case_accuracy": 0.5028409090909091,
+      "order_heuristic_agreement": 0.4971590909090909,
+      "option_consistency": 0.9630681818181818
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "task": "joint_match",
+      "language": "en",
+      "order": "agent_first",
+      "n": 352,
+      "case_accuracy": 0.8153409090909091,
+      "order_heuristic_agreement": 0.8153409090909091,
+      "option_consistency": 0.9914772727272727
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "task": "joint_match",
+      "language": "en",
+      "order": "patient_first",
+      "n": 352,
+      "case_accuracy": 0.71875,
+      "order_heuristic_agreement": 0.28125,
+      "option_consistency": 0.9431818181818182
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "task": "joint_match",
+      "language": "ja",
+      "order": "agent_first",
+      "n": 352,
+      "case_accuracy": 0.5,
+      "order_heuristic_agreement": 0.5,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "task": "joint_match",
+      "language": "ja",
+      "order": "patient_first",
+      "n": 352,
+      "case_accuracy": 0.5,
+      "order_heuristic_agreement": 0.5,
+      "option_consistency": 0.9971590909090909
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "task": "joint_match",
+      "language": "ko",
+      "order": "agent_first",
+      "n": 352,
+      "case_accuracy": 0.5,
+      "order_heuristic_agreement": 0.5,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "task": "joint_match",
+      "language": "ko",
+      "order": "patient_first",
+      "n": 352,
+      "case_accuracy": 0.5,
+      "order_heuristic_agreement": 0.5,
+      "option_consistency": 0.9971590909090909
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "task": "joint_match",
+      "language": "tr",
+      "order": "agent_first",
+      "n": 352,
+      "case_accuracy": 0.5,
+      "order_heuristic_agreement": 0.5,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "task": "joint_match",
+      "language": "tr",
+      "order": "patient_first",
+      "n": 352,
+      "case_accuracy": 0.5,
+      "order_heuristic_agreement": 0.5,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "task": "text_only",
+      "language": "bn",
+      "order": "agent_first",
+      "n": 352,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "task": "text_only",
+      "language": "bn",
+      "order": "patient_first",
+      "n": 352,
+      "case_accuracy": 0.5454545454545454,
+      "order_heuristic_agreement": 0.45454545454545453,
+      "option_consistency": 0.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "task": "text_only",
+      "language": "de",
+      "order": "agent_first",
+      "n": 352,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "task": "text_only",
+      "language": "de",
+      "order": "patient_first",
+      "n": 352,
+      "case_accuracy": 0.45454545454545453,
+      "order_heuristic_agreement": 0.5454545454545454,
+      "option_consistency": 0.6818181818181818
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "task": "text_only",
+      "language": "en",
+      "order": "agent_first",
+      "n": 352,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "task": "text_only",
+      "language": "en",
+      "order": "patient_first",
+      "n": 352,
+      "case_accuracy": 0.7727272727272727,
+      "order_heuristic_agreement": 0.22727272727272727,
+      "option_consistency": 0.7272727272727273
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "task": "text_only",
+      "language": "ja",
+      "order": "agent_first",
+      "n": 352,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "task": "text_only",
+      "language": "ja",
+      "order": "patient_first",
+      "n": 352,
+      "case_accuracy": 0.9545454545454546,
+      "order_heuristic_agreement": 0.045454545454545456,
+      "option_consistency": 0.13636363636363635
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "task": "text_only",
+      "language": "ko",
+      "order": "agent_first",
+      "n": 352,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "task": "text_only",
+      "language": "ko",
+      "order": "patient_first",
+      "n": 352,
+      "case_accuracy": 0.9090909090909091,
+      "order_heuristic_agreement": 0.09090909090909091,
+      "option_consistency": 0.36363636363636365
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "task": "text_only",
+      "language": "tr",
+      "order": "agent_first",
+      "n": 352,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "task": "text_only",
+      "language": "tr",
+      "order": "patient_first",
+      "n": 352,
+      "case_accuracy": 0.36363636363636365,
+      "order_heuristic_agreement": 0.6363636363636364,
+      "option_consistency": 0.5454545454545454
+    }
+  ],
+  "joint_by_match": [
+    {
+      "model": "LLaVA-OneVision-7B",
+      "language": "bn",
+      "order": "agent_first",
+      "is_match": false,
+      "n": 176,
+      "case_accuracy": 0.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 0.9886363636363636
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "language": "bn",
+      "order": "agent_first",
+      "is_match": true,
+      "n": 176,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "language": "bn",
+      "order": "patient_first",
+      "is_match": false,
+      "n": 176,
+      "case_accuracy": 0.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "language": "bn",
+      "order": "patient_first",
+      "is_match": true,
+      "n": 176,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "language": "de",
+      "order": "agent_first",
+      "is_match": false,
+      "n": 176,
+      "case_accuracy": 0.29545454545454547,
+      "order_heuristic_agreement": 0.29545454545454547,
+      "option_consistency": 0.8295454545454546
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "language": "de",
+      "order": "agent_first",
+      "is_match": true,
+      "n": 176,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "language": "de",
+      "order": "patient_first",
+      "is_match": false,
+      "n": 176,
+      "case_accuracy": 0.03409090909090909,
+      "order_heuristic_agreement": 0.9659090909090909,
+      "option_consistency": 0.9488636363636364
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "language": "de",
+      "order": "patient_first",
+      "is_match": true,
+      "n": 176,
+      "case_accuracy": 0.9715909090909091,
+      "order_heuristic_agreement": 0.028409090909090908,
+      "option_consistency": 0.9772727272727273
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "language": "en",
+      "order": "agent_first",
+      "is_match": false,
+      "n": 176,
+      "case_accuracy": 0.6306818181818182,
+      "order_heuristic_agreement": 0.6306818181818182,
+      "option_consistency": 0.9829545454545454
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "language": "en",
+      "order": "agent_first",
+      "is_match": true,
+      "n": 176,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "language": "en",
+      "order": "patient_first",
+      "is_match": false,
+      "n": 176,
+      "case_accuracy": 0.4375,
+      "order_heuristic_agreement": 0.5625,
+      "option_consistency": 0.8920454545454546
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "language": "en",
+      "order": "patient_first",
+      "is_match": true,
+      "n": 176,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 0.9943181818181818
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "language": "ja",
+      "order": "agent_first",
+      "is_match": false,
+      "n": 176,
+      "case_accuracy": 0.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "language": "ja",
+      "order": "agent_first",
+      "is_match": true,
+      "n": 176,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "language": "ja",
+      "order": "patient_first",
+      "is_match": false,
+      "n": 176,
+      "case_accuracy": 0.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 0.9943181818181818
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "language": "ja",
+      "order": "patient_first",
+      "is_match": true,
+      "n": 176,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "language": "ko",
+      "order": "agent_first",
+      "is_match": false,
+      "n": 176,
+      "case_accuracy": 0.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "language": "ko",
+      "order": "agent_first",
+      "is_match": true,
+      "n": 176,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "language": "ko",
+      "order": "patient_first",
+      "is_match": false,
+      "n": 176,
+      "case_accuracy": 0.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "language": "ko",
+      "order": "patient_first",
+      "is_match": true,
+      "n": 176,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 0.9943181818181818
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "language": "tr",
+      "order": "agent_first",
+      "is_match": false,
+      "n": 176,
+      "case_accuracy": 0.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "language": "tr",
+      "order": "agent_first",
+      "is_match": true,
+      "n": 176,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "language": "tr",
+      "order": "patient_first",
+      "is_match": false,
+      "n": 176,
+      "case_accuracy": 0.0,
+      "order_heuristic_agreement": 1.0,
+      "option_consistency": 1.0
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "language": "tr",
+      "order": "patient_first",
+      "is_match": true,
+      "n": 176,
+      "case_accuracy": 1.0,
+      "order_heuristic_agreement": 0.0,
+      "option_consistency": 1.0
+    }
+  ]
+}
